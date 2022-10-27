@@ -1,0 +1,213 @@
+@font-face {
+  font-family: Avenirblack;
+  src: url(../fonts/AvenirLTStd-Black.otf);
+}
+@font-face {
+  font-family: Avenirroman;
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #0e054d;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.font-pop {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.font-ave {
+  font-family: Avenirroman;
+  font-weight: 400;
+}
+
+.bg-img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 11px 165px;
+}
+
+.logo {
+  width: 242px;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: flex-end;
+  gap: 46px;
+  color: #0e054d;
+}
+
+.arrow {
+  width: 8px;
+}
+
+.nav_list {
+  gap: 32px;
+  font-family: Avenirblack;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.btn {
+  background: #a871ff;
+  padding: 16px 52px;
+  border-radius: 30px;
+  font-size: 14px;
+  color: white;
+}
+
+.hero_img {
+  background-image: url("../image/hero-img.png");
+  height: 100vh;
+  position: relative;
+}
+
+.hero_wave {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.hero_content {
+  color: white;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.hero_heading {
+  font-size: 46px;
+}
+
+.hero_para {
+  color: #f1e4ff;
+  margin-bottom: 50px;
+  font-family: Avenirroman;
+  font-weight: 400;
+}
+
+.partner-list {
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 102px;
+}
+
+.partners {
+  padding: 50px 0 54px;
+  text-align: center;
+}
+
+.feedback {
+  max-width: 886px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 33px 0 13px;
+  color: #0e054d;
+}
+
+.feedback_highlight {
+  background: #F1E4FF;
+}
+
+.ceo {
+  color: #818299;
+}
+
+.result_sec {
+  background-image: url(../image/result-wave.png);
+  height: 492px;
+  position: relative;
+}
+
+.result_img {
+  width: 100%;
+}
+
+.wave-line {
+  width: 100%;
+}
+
+.result_waveline {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.result_content {
+  position: absolute;
+  left: 50%;
+  top: 127px;
+  transform: translate(-50%, 50%);
+  color: white;
+  text-align: center;
+}
+
+.result_para1 {
+  font-size: 12px;
+  font-weight: 800;
+  color: #A871FF;
+  letter-spacing: 0.1em;
+}
+
+.result_heading {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.result_para2 {
+  font-size: 14px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 60px;
+}
+
+.result_client {
+  gap: 81px;
+}
+
+.result_annual {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 100px;
+  color: #A871FF;
+}
+
+.result_ann_para {
+  letter-spacing: 0.1em;
+}/*# sourceMappingURL=style.css.map */
