@@ -34,9 +34,9 @@ button {
   align-items: center;
 }
 
-.font-pop{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+.d-grid{
+  display: grid;
+  align-items: center;
 }
 
 .font-ave{
@@ -48,6 +48,26 @@ button {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.heading{
+  font-size: 32px;
+  line-height: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.hedding-small{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text{
+  font-family:Avenirroman;
+  font-weight: 400;
+  color: #183A7A;
 }
 
 .container {
@@ -116,6 +136,7 @@ button {
 
 .hero_heading {
   font-size: 46px;
+  line-height: 55px;
 }
 
 .hero_para {
@@ -154,11 +175,10 @@ button {
 
 .result_sec{
   background-image: url(../image/result-wave.png);
-  height: 492px;
   position: relative;
 }
 
-.result_img{
+.result_bgimg{
   width: 100%;
 }
 
@@ -167,9 +187,8 @@ button {
 }
 
 .result_waveline{
-  position: absolute;
-  left: 0;
-  bottom: 0;
+ background-image: url(../svg/wave-bg.svg);
+
 }
 
 .result_content{
@@ -181,24 +200,18 @@ button {
   text-align: center;
 }
 
-.result_para1{
+.result_text{
   font-size: 12px;
   font-weight: 800;
   color: #A871FF;
   letter-spacing: 0.1em;
 }
 
-.result_heading{
-  font-size: 32px;
-line-height: 48px;
-}
-
 .result_para2 {
   font-size: 14px;
   font-weight: 800;
   font-style: normal;
-  line-height: 60px;
-}
+ }
 
 .result_client{
   gap: 81px;
@@ -215,3 +228,65 @@ color: #A871FF;
   letter-spacing: 0.1em;
 }
 
+.sec_ad{
+  padding: 108px 0 97px;
+  text-align: center;
+}
+
+.ad_head{
+  color: #0E054D;
+}
+
+.para_text{
+  font-size: 18px;
+  font-weight: 500;
+  font-family:Avenirroman;
+  margin-bottom: 52px;
+}
+
+.ad_service{
+  grid-template-columns: repeat(3,300px);
+  justify-content: center;
+  margin-bottom: -196px;
+}
+
+.service_item{
+   padding: 20px 22px;
+}
+
+.ad-heading{
+  max-width: 160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.service_txt{
+  line-height: 19.12px;
+  margin-top: 10px;
+}
+
+.ad-heading-title{
+  color: #A871FF;
+  margin-bottom: 48px;
+}
+
+.ad_bgimg{
+  background-image:url(../image/ad-bg.png);
+}
+
+.ad_wave{
+  background-image: url(../image/ad-wave.png);
+  padding: 200px 0;
+}
+
+.ad_item{
+  grid-template-columns: 25px 1fr;
+  text-align: left;
+  margin-bottom: 30px;
+
+}
+
+.ad-comp{
+  gap: 36px;
+  justify-content: center;
+}
