@@ -6,6 +6,10 @@
   font-family: Avenirroman;
   src: url(../fonts/AvenirLTStd-Roman.otf);
 }
+@font-face {
+  font-family: Avenirheavy;
+  src: url(../fonts/Avenir\ Heavy.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -37,11 +41,6 @@ button {
   align-items: center;
 }
 
-.font-ave {
-  font-family: Avenirroman;
-  font-weight: 400;
-}
-
 .bg-img {
   width: 100%;
   background-size: cover;
@@ -62,16 +61,21 @@ button {
   font-family: "Poppins", sans-serif;
 }
 
+.para {
+  font-family: Avenirblack;
+  font-size: 14px;
+  font-weight: 800px;
+  letter-spacing: 0.1em;
+}
+
 .text {
   font-family: Avenirroman;
   font-weight: 400;
-  color: #183A7A;
+  color: #183a7a;
 }
 
-.container {
-  max-width: 1110px;
-  width: 100%;
-  margin: 0 auto;
+.text-highlight {
+  color: #A871FF;
 }
 
 .header {
@@ -95,9 +99,7 @@ button {
 
 .nav_list {
   gap: 32px;
-  font-family: Avenirblack;
-  font-weight: 800;
-  font-size: 14px;
+  letter-spacing: 0;
 }
 
 .btn {
@@ -139,8 +141,6 @@ button {
 .hero_para {
   color: #f1e4ff;
   margin-bottom: 50px;
-  font-family: Avenirroman;
-  font-weight: 400;
 }
 
 .partner-list {
@@ -162,11 +162,8 @@ button {
   color: #0e054d;
 }
 
-.feedback_highlight {
-  background: #F1E4FF;
-}
-
 .ceo {
+  font-family: Avenirheavy;
   color: #818299;
 }
 
@@ -196,17 +193,14 @@ button {
   text-align: center;
 }
 
-.result_text {
+.result_textup {
+  font-family: Avenirheavy;
   font-size: 12px;
-  font-weight: 800;
-  color: #A871FF;
-  letter-spacing: 0.1em;
+  color: #a871ff;
 }
 
-.result_para2 {
-  font-size: 14px;
-  font-weight: 800;
-  font-style: normal;
+.result_textdown {
+  letter-spacing: 0;
 }
 
 .result_client {
@@ -217,11 +211,13 @@ button {
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
   font-size: 100px;
-  color: #A871FF;
+  color: #a871ff;
 }
 
 .result_ann_para {
-  letter-spacing: 0.1em;
+  font-family: Avenirheavy;
+  font-size: 12px;
+  color: #f1e4ff;
 }
 
 .sec_ad {
@@ -230,7 +226,7 @@ button {
 }
 
 .ad_head {
-  color: #0E054D;
+  color: #0e054d;
 }
 
 .para_text {
@@ -262,7 +258,6 @@ button {
 }
 
 .ad-heading-title {
-  color: #A871FF;
   margin-bottom: 48px;
 }
 
@@ -281,7 +276,152 @@ button {
   margin-bottom: 30px;
 }
 
-.ad-comp {
+.ad_comp {
   gap: 36px;
   justify-content: center;
+  margin: 0 207px;
+}
+
+.ad_list {
+  max-width: 25%;
+  width: 100%;
+}
+
+.sec_clients {
+  padding-bottom: 95px;
+}
+
+.client_para {
+  font-family: Avenirheavy;
+  color: #0e054d;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.clients_logos {
+  margin: 0 155px;
+}
+
+.work_with_us {
+  background-image: url(../image/workwithus.png);
+  height: 580px;
+  margin-bottom: 63px;
+  position: relative;
+}
+
+.work_heading_up {
+  color: white;
+}
+
+.work_heading_down {
+  color: #a871ff;
+  margin-bottom: 43px;
+}
+
+.work_content {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+}
+
+.sec_funnel_conversion {
+  margin: 0 165px;
+}
+
+.funnel_conversion {
+  margin-bottom: 123px;
+  justify-content: space-between;
+  gap: 85px;
+}
+
+.content {
+  width: 50%;
+}
+
+.content_item {
+  margin-bottom: 30px;
+}
+
+.content-head {
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 50%;
+}
+
+.learn_more {
+  font-family: Avenirheavy;
+}
+
+.sec_testimonial {
+  padding-bottom: 100px;
+}
+
+.testimonial_bg {
+  background-image: url(../image/feedback.png);
+  height: 580px;
+  position: relative;
+}
+
+.testimonial {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  color: white;
+}
+
+.testi-heading {
+  max-width: 755px;
+  width: 100%;
+  color: white;
+}
+
+.testi-highlight {
+  background-color: #A871FF;
+}
+
+.testi_img {
+  width: 100%;
+}
+
+.sec_track_rec {
+  padding-bottom: 100px;
+}
+
+.track-heading {
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.track {
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0 169px;
+  gap: 38px;
+  align-items: center;
+}
+
+.bg_track {
+  background-image: url(../image/studio-melia.png);
+  height: 190px;
+  width: 190px;
+  border-radius: 10px;
+  text-align: center;
+}
+.bg_track .growth {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 50px;
+}
+.bg_track .discription {
+  font-family: Avenirblack;
+  font-size: 10px;
+  color: white;
+  line-height: 30px;
 }/*# sourceMappingURL=style.css.map */
