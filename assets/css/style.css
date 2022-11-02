@@ -10,6 +10,10 @@
   font-family: Avenirheavy;
   src: url(../fonts/Avenir\ Heavy.ttf);
 }
+@font-face {
+  font-family: Avenirbook;
+  src: url(../fonts/AvenirLTStd-Book.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +66,7 @@ button {
 }
 
 .para {
-  font-family: Avenirblack;
+  font-family: Avenirbook;
   font-size: 14px;
   font-weight: 800px;
   letter-spacing: 0.1em;
@@ -75,7 +79,7 @@ button {
 }
 
 .text-highlight {
-  color: #A871FF;
+  color: #a871ff;
 }
 
 .header {
@@ -110,6 +114,13 @@ button {
   color: white;
 }
 
+.pos-abs {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
 .hero_img {
   background-image: url("../image/hero-img.png");
   height: 100vh;
@@ -127,10 +138,6 @@ button {
   text-align: center;
   max-width: 700px;
   width: 100%;
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
-  transform: translate(-50%, 50%);
 }
 
 .hero_heading {
@@ -185,10 +192,6 @@ button {
 }
 
 .result_content {
-  position: absolute;
-  left: 50%;
-  top: 127px;
-  transform: translate(-50%, 50%);
   color: white;
   text-align: center;
 }
@@ -319,10 +322,6 @@ button {
 }
 
 .work_content {
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
-  transform: translate(-50%, 50%);
   text-align: center;
 }
 
@@ -368,10 +367,6 @@ button {
 
 .testimonial {
   text-align: center;
-  position: absolute;
-  left: 50%;
-  bottom: 50%;
-  transform: translate(-50%, 50%);
   color: white;
 }
 
@@ -382,7 +377,7 @@ button {
 }
 
 .testi-highlight {
-  background-color: #A871FF;
+  background-color: #a871ff;
 }
 
 .testi_img {
@@ -396,14 +391,14 @@ button {
 .track-heading {
   max-width: 550px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 18px;
 }
 
 .track {
   grid-template-columns: repeat(5, 1fr);
-  margin: 0 169px;
+  margin: 0 169px 35px;
   gap: 38px;
-  align-items: center;
+  place-items: center;
 }
 
 .bg_track {
@@ -411,17 +406,79 @@ button {
   height: 190px;
   width: 190px;
   border-radius: 10px;
+}
+
+.track_content {
   text-align: center;
 }
-.bg_track .growth {
+
+.growth {
   color: white;
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
   font-size: 50px;
 }
-.bg_track .discription {
-  font-family: Avenirblack;
+
+.discription {
+  font-family: Avenirbook;
   font-size: 10px;
   color: white;
   line-height: 30px;
+}
+
+.bg_track1 {
+  background-image: url(../image/clothcord.png);
+}
+
+.bg_track2 {
+  background-image: url(../image/gadget-flow.png);
+}
+
+.bg_track3 {
+  background-image: url(../image/kiss-metrics.png);
+}
+
+.bg_track4 {
+  background-image: url(../image/bouqs.png);
+}
+
+.bg_track5 {
+  background-image: url(../image/summer-board.png);
+}
+
+.bg_track6 {
+  background-image: url(../image/anson-calder.png);
+}
+
+.bg_track7 {
+  background-image: url(../image/shock-surplus.png);
+}
+
+.bg_track8 {
+  background-image: url(../image/johny-rosie.png);
+}
+
+.bg_track9 {
+  background-image: url(../image/moqzart.png);
+}
+
+.track-link {
+  text-align: center;
+  display: block;
+}
+
+.blog_sec {
+  background-image: url(../image/blog-sec.png);
+  height: 580px;
+  position: relative;
+}
+
+.blog-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.blog_item {
+  grid-template-columns: repeat(3, 1fr);
 }/*# sourceMappingURL=style.css.map */
