@@ -117,6 +117,7 @@ button {
 }
 
 .btn {
+  font-family: Avenirroman;
   background: #a871ff;
   padding: 16px 52px;
   border-radius: 30px;
@@ -129,6 +130,7 @@ button {
   left: 50%;
   bottom: 50%;
   transform: translate(-50%, 50%);
+  text-align: center;
 }
 
 //Hero SECTION
@@ -147,7 +149,6 @@ button {
 
 .hero_content {
   color: white;
-  text-align: center;
   max-width: 700px;
   width: 100%;
 }
@@ -209,7 +210,6 @@ button {
 
 .result_content {
   color: white;
-  text-align: center;
 }
 
 .result_textup {
@@ -341,10 +341,6 @@ button {
   margin-bottom: 43px;
 }
 
-.work_content {
-  text-align: center;
-}
-
 .sec_funnel_conversion {
   margin: 0 165px;
 }
@@ -387,7 +383,6 @@ button {
 }
 
 .testimonial {
-  text-align: center;
   color: white;
 }
 
@@ -494,14 +489,150 @@ button {
 
 .blog_sec{
   background-image:url(../image/blog-sec.png);
-  height: 580px;
+  height: 900px;
   position: relative;
 }
+
+.blog_content{
+  text-align: left;
+}
+
+.blog_headtext{
+  text-align: center;
+  margin-bottom: 64px;
+  color: white;
+}
+
 .blog-text{
   font-size: 20px;
   font-weight: 500;
   color:white;
 }
-.blog_item{
+
+.blog_card{
   grid-template-columns: repeat(3,1fr);
+  margin: 0 210px;
+  gap:30px;
 }
+
+.blog_item{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.card_content{
+  padding: 25px 40px;
+}
+
+.card_text{
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 0 25px;
+}
+
+// HELP SECTION
+.help_sec{
+  padding: 100px 0 88px;
+  text-align: center;
+}
+
+.help_line{
+  justify-content: center;
+  gap:20px;
+  margin-bottom: 58px;
+}
+
+.help_content{
+  text-align: center;
+}
+
+.help_checkboxes{
+  grid-template-columns: repeat(2,1fr);
+  gap:25px;
+  max-width: 600px;
+  width: 100%;
+  margin: 25px auto 30px;
+
+}
+
+.help_item{
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 30px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  position: relative;
+}
+
+.help-gap{
+  gap:12px;
+}
+
+.chkbox_text{
+  color:#0e054d;
+  cursor: pointer;
+}
+
+.round {
+  position: relative;
+}
+
+.round label {
+  background-color: #E4E4E9;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 5px;
+  left: 3px;
+  opacity: 0;
+  position: absolute;
+  top: 4px;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color:  #A871FF;
+  border-color:  #A871FF;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+//FOOTER START
+
+// PROUD PARTNER SECTION
+
+  .partner_sec{
+    background: #290A6B;
+    padding: 33px 0;
+  }
+
+  .partner_text{
+    color: white;
+    text-align: center;
+  }
+
+  .partner_logos{
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 20px;
+  }
