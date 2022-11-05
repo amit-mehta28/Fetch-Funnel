@@ -35,6 +35,12 @@ button {
   cursor: pointer;
 }
 
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .d-flex {
   display: flex;
   align-items: center;
@@ -68,7 +74,7 @@ button {
 .para {
   font-family: Avenirbook;
   font-size: 14px;
-  font-weight: 800px;
+  font-weight: 800;
   letter-spacing: 0.1em;
 }
 
@@ -83,7 +89,7 @@ button {
 }
 
 .header {
-  padding: 11px 165px;
+  padding: 11px 0;
 }
 
 .logo {
@@ -123,9 +129,9 @@ button {
   text-align: center;
 }
 
-.hero_img {
+.hero_sec {
   background-image: url("../image/hero-img.png");
-  height: 100vh;
+  height: 550px;
   position: relative;
 }
 
@@ -149,15 +155,16 @@ button {
 .hero_para {
   color: #f1e4ff;
   margin-bottom: 50px;
+  line-height: 26px;
 }
 
 .partner-list {
   justify-content: center;
-  gap: 30px;
-  padding-bottom: 102px;
+  gap: 28px;
+  margin-bottom: 102px;
 }
 
-.partners {
+.partners_sec {
   padding: 50px 0 54px;
   text-align: center;
 }
@@ -243,10 +250,18 @@ button {
   grid-template-columns: repeat(3, 300px);
   justify-content: center;
   margin-bottom: -196px;
+  gap: 50px;
 }
 
 .service_item {
   padding: 20px 22px;
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 10px;
+}
+
+.ad-container {
+  padding-top: 58px;
 }
 
 .ad-heading {
@@ -279,14 +294,7 @@ button {
   margin-bottom: 30px;
 }
 
-.ad_comp {
-  gap: 36px;
-  justify-content: center;
-  margin: 0 207px;
-}
-
 .ad_list {
-  max-width: 25%;
   width: 100%;
 }
 
@@ -299,10 +307,6 @@ button {
   color: #0e054d;
   text-align: center;
   margin-bottom: 70px;
-}
-
-.clients_logos {
-  margin: 0 155px;
 }
 
 .work_with_us {
@@ -319,10 +323,6 @@ button {
 .work_heading_down {
   color: #a871ff;
   margin-bottom: 43px;
-}
-
-.sec_funnel_conversion {
-  margin: 0 165px;
 }
 
 .funnel_conversion {
@@ -391,9 +391,9 @@ button {
 
 .track {
   grid-template-columns: repeat(5, 1fr);
-  margin: 0 169px 35px;
   gap: 38px;
   place-items: center;
+  margin-bottom: 35px;
 }
 
 .bg_track {
@@ -589,7 +589,7 @@ button {
   opacity: 1;
 }
 
-.partner_sec {
+.partner_footer {
   background: #290A6B;
   padding: 33px 0;
 }
@@ -597,10 +597,97 @@ button {
 .partner_text {
   color: white;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .partner_logos {
   justify-content: center;
   gap: 45px;
   margin-bottom: 20px;
+}
+
+.footer {
+  background: #0E054D;
+  padding: 40px 0 16px;
+}
+
+.container-footer {
+  width: 100%;
+  max-width: 1180px;
+  margin: auto;
+}
+
+.foot {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.foot-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A871FF;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.foot-logos {
+  gap: 17px;
+  justify-content: center;
+}
+
+.foot-para {
+  color: white;
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+.foot_headding {
+  font-size: 24px;
+  color: white;
+  line-height: 36px;
+}
+
+.foot_contact {
+  font-family: Avenirroman;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #A871FF;
+  color: white;
+  margin-bottom: 14px;
+}
+
+.foot_address {
+  font-size: 14px;
+  color: #C3C4D2;
+}
+
+.foot-headding {
+  font-size: 14px;
+  color: #C3C4D2;
+  font-family: Avenirroman;
+}
+
+.foot_item {
+  font-size: 14px;
+  font-family: Avenirroman;
+  line-height: 26px;
+}
+
+.foot_item_headding {
+  font-weight: 800;
+  color: white;
+}
+
+.foot_link {
+  color: #C3C4D2;
+}
+
+.con-service-agency {
+  gap: 90px;
+}
+
+.service-agency {
+  text-align: left;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */
