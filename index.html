@@ -4,532 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fetch & Funnel</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Fetch Funnel</title>
+    <link rel="stylesheet" href="assets/style/css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="header container d-flex">
-      <img class="logo" src="assets/svg/logo.svg" alt="" />
-      <div class="navbar d-flex">
-        <ul class="nav_list para d-flex">
-          <li>
-            <a href="#">SERVICES <img class="arrow" src="assets/svg/down-arrow.svg" alt="" /></a>
-          </li>
-          <li><a href="#">OUR WORK</a></li>
-          <li><a href="#">TEAM</a></li>
-          <li><a href="#">BLOG</a></li>
-        </ul>
-        <button class="btn"> WORK WITH US</button>
+    <!-- === === === HEADER === === === -->
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav d-flex">
+          <a href="#"> <img class="logo" src="assets/svg/logo.svg" alt="" /></a>
+          <div class="navbar d-flex">
+            <ul class="nav_list d-flex">
+              <li>
+                <a href="#" class="nav_link"> SERVICES <img src="assets/svg/down-arrow.svg" alt="" /></a>
+              </li>
+              <li><a href="#" class="nav_link"> OUR WORK</a></li>
+              <li><a href="#" class="nav_link"> TEAM</a></li>
+              <li><a href="#" class="nav_link"> BLOG</a></li>
+            </ul>
+            <a href="#" class="btn nav_btn">WORK WITH US</a>
+          </div>
+          <button> 
+            <img class="nav_hamburger" src="assets/svg/hamburger.svg" alt="hamburgerError"> 
+          </button> 
+        </nav>
       </div>
     </header>
 
+    <!-- === === === MAIN === === === -->
     <main>
-      <section class="hero_sec bg-img">
-        <div class="hero_content pos-abs">
-          <h2 class="heading hero_heading">Award-Winning Performance Marketing Agency</h2>
-          <p class="hero_para text">We’re a performance marketing agency creating value for DTC brands with stellar creative, specialized media buying and data-driven results from top to bottom of the funnel.</p>
-          <button class="btn">PARTNER WITH EXPERTS</button>
-        </div> 
+      <section class="sec_hero bg-common d-grid">
         <img class="hero_wave" src="assets/image/wave.png" alt="" />
-      </section>
-
-      <section class="partners_sec container">
-        <ul class="partner-list d-flex">
-          <li><img src="assets/svg/google-partner.svg" alt="" /></li>
-          <li><img src="assets/svg/klaviyo-partner.svg" alt="" /></li>
-          <li><img src="assets/svg/facebook-partner.svg" alt="" /></li>
-          <li><img src="assets/svg/shopify-partner.svg" alt="" /></li>
-          <li><img src="assets/svg/growth-hacker-partner.svg" alt="" /></li>
-          <li><img src="assets/svg/snapchat-partner.svg" alt="" /></li>
-          <li><img src="assets/svg/google-market-partner.svg" alt="" /></li>
-          <li><img src="assets/svg/attendtive-partner.svg" alt="" /></li>
-        </ul>
-      
-          <img src="assets/svg/“.svg" alt="" />
-          <h5 class="feedback hedding-small">“I’ve been working with F&F for years now, and they’ve outperformed two much larger agencies. Samir has built a crack team that has to be <span class="text-highlight">the most efficient on the planet!</span>”</h5>
-          <img src="assets/svg/aaron.svg" alt="" />
-          <p class="para">Aaron Aders</p>
-          <p class="para ceo">Founder & CEO, Summerboard</p>       
-      </section>
-
-      <section class="result_sec bg-img">
-        <div class="result_waveline bg-img">
-        <img class="result_bgimg" src="assets/image/result-img.png" alt="" />
-          <div class="result_content pos-abs">
-            <p class="result_textup para">Partner With Experts</p>
-            <h3 class="heading">We Get Real Results</h3>
-            <p class="result_textdown para">Get a high ROI and finally start scaling your business.</p>
-
-            <div class="result_client d-flex">
-              <div>
-                <span class="result_annual">$400M+</span>
-                <p class="result_ann_para para">Annual Client Sales Generated</p>
-              </div>
-    
-              <div>
-              <span class="result_annual">$100M+</span>
-              <p class="result_ann_para para">Annual Client ad spend</p>
-              </div>
-    
-              <div>
-                <span class="result_annual">$350M+</span>
-                <p class="result_ann_para para">Annual Client Sales Generated</p>
-              </div>
-            </div>
-          </div>
-         </div> 
-      </section>
-  
-      <section class="sec_ad">
-        <h3 class="heading ad_head">What We’re Great At</h3>
-        <p class="para_text">Everything you need to profitably scale your business, under one roof.</p>
-        <div class="ad_service d-grid container">
-          <div class="service_item">
-            <img src="assets/svg/ad-smily.svg" alt="">
-            <h5 class="hedding-small ad-heading"> Paid Advertising</h5>
-            <p class="service_txt text"> We take a full funnel approach to channel strategy and media buying. We’re obsessed with getting more clicks, always testing, learning, 
-              and scaling.</p>
-          </div>
-          <div class="service_item">
-            <img src="assets/svg/ad-color.svg" alt="">
-            <h5 class="hedding-small ad-heading"> Performance Creative</h5>
-            <p class="service_txt text"> Our Performance Creative Program delivers thumb-stopping content that converts. We love a good A/B test and are always iterating and brainstorming new ideas. </p>
-          </div>
-          <div class="service_item">
-            <img src="assets/svg/ad-laptop.svg" alt="">
-            <h5 class="hedding-small"> Conversion Rate Optimization</h5>
-            <p class="service_txt text"> We offer a managed, full-service Conversion Rate Optimization (CRO) program provided by a team of experts. User experience can always be better, and we make that happen. </p>
-          </div>
-        </div>
-
-        <div class="ad_bgimg bg-img">
-          <div class="ad_wave bg-img">
-          <div class="container ad-container">
-           <h5 class="hedding-small">Strategy. Design. Paid Media. Email. Landing Pages. CRO. </h5>
-           <h5 class="hedding-small ad-heading-title text-highlight"> Full Funnel Advertising That Works Together.</h5>
-         
-           <div class="ad_comp d-flex">
-           <ul class="ad_list d-grid">
-            <li class="ad_item para_text para_text d-grid">  <img src="assets/svg/Ad-Strategy.svg" alt=""> <p> Ad Strategy</p></li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Advertising-Funnels.svg" alt=""> <p> Advertising Funnels</p>  </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Amazon-Ads.svg" alt=""><p> Amazon Ads </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Conversion-Rate-Optimization.svg" alt=""> <p> Conversion Rate Optimization </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Creative-Strategy.svg" alt=""><p> Creative Strategy </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Copywriting.svg" alt=""><p> Copywriting </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/CRM.svg" alt=""><p> CRM </p> </li>
-           </ul>
-           <ul class="ad_list d-grid">
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Display.svg" alt=""> <p> Display </p></li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Email-Marketing.svg" alt=""> <p> Email Marketing</p>  </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Facebook-Ads.svg" alt=""><p> Facebook Ads </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Google-Ads.svg" alt=""> <p> Google Ads </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Google-Analytics.svg" alt=""><p> Google Analytics </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Google-Search.svg" alt=""><p> Google Search </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Google-Shopping.svg" alt=""><p> Google Shopping </p> </li>
-           </ul>
-           <ul class="ad_list d-grid">
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/instagram.svg" alt=""> <p> Instagram Ads </p></li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Landing-Pages.svg" alt=""> <p> Landing Pages</p>  </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Media-Strategy.svg" alt=""><p> Media Strategy</p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Messenger.svg" alt=""> <p> Messenger </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Performance-Ad-Creative.svg" alt=""><p> Performance Ad Creative </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Pinterest.svg" alt=""><p> Pinterest </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Programmatic.svg" alt=""><p> Programmatic </p> </li>
-           </ul>
-           <ul class="ad_list d-grid">
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Retargeting.svg" alt=""> <p> Retargeting</p></li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Shopify.svg" alt=""> <p> Shopify</p>  </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/SMS.svg" alt=""><p> SMS </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Snapchat.svg" alt=""> <p> Snapchat </p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/TikTok.svg" alt=""><p> TikTok</p> </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/Video-Design.svg" alt=""><p>Video Design</p>  </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/YouTube.svg" alt=""><p> YouTube</p> </li>
-           </ul>
-          </div>
-        </div>
-           </div>
-          </div>
-        </div>
-      </section>
-     
-
-      <section class="sec_clients container">
-        <p class="client_para para">Meet some of our incredible clients</p>
-
-        <div class="clients_logos d-flex">
-          <ul class="ad_list d-grid">
-           <li class="ad_item para_text para_text d-grid">  <img src="assets/svg/Cloud-App.svg" alt=""> </li>
-           <li class="ad_item para_text d-grid">  <img src="assets/svg/TAKELESSONS.svg" alt="">   </li>
-           <li class="ad_item para_text d-grid">  <img src="assets/svg/fit-factory.svg" alt=""> </li>
-          </ul>
-          <ul class="ad_list d-grid">
-           <li class="ad_item para_text d-grid">  <img src="assets/svg/AMELIA.svg" alt=""> </li>
-           <li class="ad_item para_text d-grid">  <img src="assets/svg/gettheguy.svg" alt="">  </li>
-           <li class="ad_item para_text d-grid">  <img src="assets/svg/pocker.svg" alt=""></li>
-          </ul>
-          <ul class="ad_list d-grid">
-           <li class="ad_item para_text d-grid">  <img src="assets/svg/TimothySykes.svg" alt=""></li>
-           <li class="ad_item para_text d-grid">  <img src="assets/svg/shocksurplus.svg" alt="">   </li>
-           <li class="ad_item para_text d-grid">  <img src="assets/svg/brotman-law.svg" alt=""> </li>
-          </ul>
-          <ul class="ad_list d-grid">
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/TimothySykes.svg" alt=""></li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/shocksurplus.svg" alt="">   </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/brotman-law.svg" alt=""> </li>
-           </ul>
-           <ul class="ad_list d-grid">
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/TimothySykes.svg" alt=""></li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/shocksurplus.svg" alt="">   </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/brotman-law.svg" alt=""> </li>
-           </ul>
-           <ul class="ad_list d-grid">
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/TimothySykes.svg" alt=""></li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/shocksurplus.svg" alt="">   </li>
-            <li class="ad_item para_text d-grid">  <img src="assets/svg/brotman-law.svg" alt=""> </li>
-           </ul>
-          </div>
-      </section>
-
-      <section class="work_with_us bg-img">
-        <div class="work_content pos-abs">
-          <h3 class="heading work_heading_up">Strategy. Design. Paid Media. Email. Landing Pages. CRO.</h3>
-          <h3 class="heading work_heading_down"> Full Funnel Advertising That Works Together.</h3>
-          <button class="btn">WORK WITH US</button>
-        </div>
-      </section>
-
-      <section class="sec_funnel_conversion container">
-        <div class="funnel_conversion d-flex">
-          <div class="content">
-            <h3 class="heading content-head">Full-Funnel Advertising</h3>
-            <p class="text content_item">We take a full funnel approach channel strategy and media buying.</p> 
-            <p class="text content_item">believe in doing things right, from the start. And that means setting clear goals, building a profitability matrix, and ensuring accurate measurement. </p>
-            <p class="text content_item"> brand needs to provide a positive experience for your customers. From the first time they see you, to upsell and repeat purchase campaigns we control creative and messaging in a way that enhances your customer journey. </p>
-            <a href="#" class="learn_more text-highlight text">LERN MORE <img src="assets/svg/arrow-right.svg" alt=""> <img src="assets/svg/arrow-right.svg" alt=""></a>
-          </div>
-          <div class="image">
-             <img src="assets/image/funnel-mobile.png" alt="">
-          </div>
-        </div>
-
-          <div class="funnel_conversion d-flex">
-            <div class="image">
-              <img src="assets/image/performance_image.png" alt="">
-            </div>
-            <div class="content">
-              <h3 class="heading content-head">Performance Creative</h3>
-              <p class="text content_item"> We believe you should never make an ad once. Our Performance Creative Program delivers thumb-stopping content along with ongoing testing and iteration.</p> 
-              <p class="text content_item">We’ll audit your existing creative, assess performance, and develop a new strategy that will make your brand stand out. </p>
-              <p class="text content_item"> From top to bottom of funnel, everything is tailored to fit your goals.</p>
-              <a href="#" class="learn_more text-highlight text">LERN MORE <img src="assets/svg/arrow-right.svg" alt=""> <img src="assets/svg/arrow-right.svg" alt=""></a>
-            </div>
-          </div>
-
-          <div class="funnel_conversion d-flex">
-            <div class="content">
-              <h3 class="heading content-head">Conversion Rate Optimization</h3>
-              <p class="text content_item">The most effective way to make more money, period.</p>
-              <p class="text content_item"> By converting more traffic into customers, you’ll get a higher ROI without spending more on advertising.</p>
-              <p class="text content_item"> We offer a managed, full-service Conversion Rate Optimization (CRO) program provided by a team of experts. </p>
-              <p class="text content_item">  We leverage a data-driven approach to design and develop website tests, user-experience recommendations, AB testing, ongoing reporting, and behavioral analysis. </p>
-              <a href="#" class="learn_more text-highlight text">LERN MORE <img src="assets/svg/arrow-right.svg" alt=""> <img src="assets/svg/arrow-right.svg" alt=""></a>
-            </div>
-            <div class="image">
-              <img src="assets/image/optimization-image.png" alt="">
-            </div>
-          </div>
-      </section>
-
-      <section class=" sec_testimonial">
-        <div class="testimonial_bg bg-img">
-          <div class="testimonial pos-abs">
-            <img src="assets/svg/tesi-double-quote.svg" alt="" />
-            <h5 class="feedback hedding-small testi-heading"> "I've worked with Fetch for many years, across various categories. They genuinely want to understand your product, brand, and customers needs. 
-               <span class="feedback_highlight testi-highlight">I wouldn't have chosen anyone else."</span>”</h5>
-            <img src="assets/svg/Emily-Inglis.svg" alt="" />
-            <p class="para">Emily Inglis</p>
-            <p class="para ceo">Founder, Studio Amelia</p>
-          </div>
-        </div>
-        <img class="testi_img" src="assets/image/testi-image.png" alt="">
-      </section>
-
-      <section class="sec_track_rec container">
-        <p class="heading track-heading">We Have a Track Record of Leading Clients to <span class="text-highlight">  Success </span></p>
-       <div class="track d-grid">
-        <div class="bg_track bg-img d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track1 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track2 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track3 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track4 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track5 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track6 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track7 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track8 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-
-        <div class="bg_track bg-img bg_track9 d-flex">
-          <div class="track_content">
-            <img src="assets/svg/amelia-logo.svg" alt="">
-            <span class="growth">1,525%+</span>
-            <p class="discription para"> MONTHLY INCREASE IN SALES</p>
-          </div>
-        </div>
-       </div>
-       <a href="#" class="learn_more text-highlight track-link">WORK WITH US 
-        <img src="assets/svg/arrow-right.svg" alt=""> 
-        <img src="assets/svg/arrow-right.svg" alt="">
-      </a>
-      </section>
-
-      <section class="blog_sec bg-img">
-        <div class="blog_content pos-abs">
-          <div class="blog_headtext">
-            <h3 class="heading">Read The Latest</h3>
-            <p class="text blog-text">Get expert insights for growing your eCom brand. </p>
-          </div>
-          <div class="blog_card d-grid">
-            <div class="blog_item"> 
-              <img src="assets/image/blog-img1.png" alt="">
-              <div class="card_content"> 
-                <h5 class="hedding-small">Turnip 12 Greens Yarrow Ricebean Rutabaga Endive Cauliflower.</h5>
-                <p class="card_text text">Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado...</p>  
-                <a href="#" class="learn_more text-highlight">WORK WITH US 
-                  <img src="assets/svg/arrow-right.svg" alt=""> 
-                  <img src="assets/svg/arrow-right.svg" alt="">
-                </a>
-              </div>
-             
-            </div>
-            <div class="blog_item"> 
-              <img src="assets/image/blog-img1.png" alt="">
-              <div class="card_content"> 
-                <h5 class="hedding-small">Turnip 12 Greens Yarrow Ricebean Rutabaga Endive Cauliflower.</h5>
-                <p class="card_text text">Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado...</p>  
-                <a href="#" class="learn_more text-highlight">WORK WITH US 
-                  <img src="assets/svg/arrow-right.svg" alt=""> 
-                  <img src="assets/svg/arrow-right.svg" alt="">
-                </a>
-              </div>
-            </div>
-            <div class="blog_item"> 
-              <img src="assets/image/blog-img1.png" alt="">
-              <div class="card_content"> 
-                <h5 class="hedding-small">Turnip 12 Greens Yarrow Ricebean Rutabaga Endive Cauliflower.</h5>
-                <p class="card_text text">Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado...</p>  
-                <a href="#" class="learn_more text-highlight">WORK WITH US 
-                  <img src="assets/svg/arrow-right.svg" alt=""> 
-                  <img src="assets/svg/arrow-right.svg" alt="">
-                </a>
-              </div>
-            </div>
-        </div>
-     </div>
-      </section>
-
-      <section class="help_sec container">
-        <div class="help_line d-flex ">
-          <img src="assets/svg/Ellipse1.svg" alt="">
-          <img src="assets/svg/Line1.svg" alt="">
-          <img src="assets/svg/Ellipse2.svg" alt="">
-          <img src="assets/svg/Line2.svg" alt="">
-          <img src="assets/svg/Ellipse3.svg" alt="">
-          <img src="assets/svg/Line3.svg" alt="">
-          <img src="assets/svg/Ellipse4.svg" alt="">
-        </div>
-        <div class="help_content">
-          <h3 class="heading help_heading">What can we help you with?</h3>
-          <p class="text">(select all that apply)</p>
-        </div>
-
-        <div class="d-grid help_checkboxes">
-          <div class="help_item">
-            <div class="d-flex help-gap">
-              <div class="round">
-                <input type="checkbox" id="chkbox">
-                <label for="chkbox"></label>
-              </div>
-            <label for="chkbox" class="text chkbox_text"> Conversion Rate Optimization</label>
-            </div> 
-          </div>
-          <div class="help_item">
-            <div class="d-flex help-gap">
-              <div class="round">
-                <input type="checkbox" id="chkbox2">
-                <label for="chkbox2"></label>
-              </div>
-            <label for="chkbox2" class="text chkbox_text"> Paid Advertising</label>
-            </div> 
-          </div>
-          <div class="help_item">
-            <div class="d-flex help-gap">
-              <div class="round">
-                <input type="checkbox" id="chkbox3">
-                <label for="chkbox3"></label>
-              </div>
-            <label for="chkbox3" class="text chkbox_text"> Creative Services </label>
-            </div> 
-          </div>
-          <div class="help_item">
-            <div class="d-flex help-gap">
-              <div class="round">
-                <input type="checkbox" id="chkbox4">
-                <label for="chkbox4"></label>
-              </div>
-            <label for="chkbox4" class="text chkbox_text"> Landing Pages</label>
-            </div> 
-          </div>
-          <div class="help_item">
-            <div class="d-flex help-gap">
-              <div class="round">
-                <input type="checkbox" id="chkbox5">
-                <label for="chkbox5"></label>
-              </div>
-            <label for="chkbox5" class="text chkbox_text"> Email Marketing</label>
-            </div> 
-          </div>
-          <div class="help_item">
-            <div class="d-flex help-gap">
-              <div class="round">
-                <input type="checkbox" id="chkbox6">
-                <label for="chkbox6"></label>
-              </div>
-            <label for="chkbox6" class="text chkbox_text"> Other </label>
-            </div> 
-          </div>
-        </div>
-        <button class="btn">CONTINUE <img src="assets/svg/arrow-rigt-whitw.svg" alt=""> </button>
-      </section>
-    </main>
-
-    <footer>
-      <section class="partner_footer">
-        <p class="para partner_text">PROUD PARTNER OF</p>
-       <div class="d-flex partner_logos">
-        <img src="assets/svg/KLAVIYO.svg" alt="">
-        <img src="assets/svg/FACEBOOK.svg" alt="">
-        <img src="assets/svg/shopify-footer.svg" alt="">
-       </div>
-       <div class="d-flex partner_logos">
-        <img src="assets/svg/growth-hacker.svg" alt="">
-        <img src="assets/svg/snapchat-footer.svg" alt="">
-        <img src="assets/svg/google-footer.svg" alt="">
-        <img src="assets/svg/ATTENTIVE-footer.svg" alt="">
-        <img src="assets/svg/googlefooter.svg" alt="">
-       </div>
-      </section>
-      
-      <section class="footer">
         <div class="container">
-        <div class=" d-flex foot">
-        <div class="">
-          <img src="assets/svg/logo-footer.svg  " alt="">
-          <p class="text foot-text">We Believe in Transparency</p>
-          <div class="foot-logos d-flex">
-            <a href=""> <img src="assets/svg/Facebook-footer.svg" alt=""> </a>
-            <a href=""> <img src="assets/svg/Instagram-footer.svg" alt=""></a>
-            <a href=""> <img src="assets/svg/LinkedIn-footer.svg" alt=""> </a>
+          <div class="hero_content">
+            <h3 class="big-heading">Award-Winning Performance Marketing Agency</h3>
+            <p class="text hero-discription">We’re a performance marketing agency creating value for DTC brands with stellar creative, specialized media buying and data-driven results from top to bottom of the funnel.</p>
+            <a href="#" class="btn">PARTNER WITH EXPERTS</a>
           </div>
         </div>
-        <div class="d-flex con-service-agency">
-          <div>
-            <p class="text foot-para">Are you ready?</p>
-            <h4 class="hedding-small foot_headding">Let’s Get Started</h4>
-            <button class="btn">SPEAK WITH A GROWTH EXPERTS</button>
-            <p class="foot_contact">(617) 855-5118</p>
-            <p class="text foot_address">177 Huntington Ave. Boston, MA 02115</p>
-            <p class="text foot_address">©2022 Fetch and Funnel. All Rights Reserved</p>
-          </div>
-          <div class="service-agency d-flex ">
-            <ul>
-              <li class="foot_item foot_item_headding">Services</li>
-              <li class="foot_item"><a class="foot_link" href="#"> Paid Advertising </a></li>
-              <li class="foot_item"><a class="foot_link" href="#">Facebook Ads Agency </a></li>
-              <li class="foot_item"><a class="foot_link" href="#">Performance Creative </a></li>
-              <li class="foot_item"><a class="foot_link" href="#"> Conversion Rate Optimization</a></li>
-              <li class="foot_item"><a class="foot_link" href="#"> Google Ads Agency </a></li>
-              <li class="foot_item"><a class="foot_link" href="#">Landing Pages </a></li> 
-            </ul>
-            <ul>
-              <li class="foot_item foot_item_headding"> Agency </li>
-              <li class="foot_item"><a class="foot_link" href="#"> The Team</a></li>
-              <li class="foot_item"><a class="foot_link" href="#">Case Studies </a></li>
-              <li class="foot_item"><a class="foot_link" href="#">Careers </a></li>
-              <li class="foot_item"><a class="foot_link" href="#"> Blog</a></li>
-              <li class="foot_item"><a class="foot_link" href="#"> Contact</a></li>
-            </ul>
-          </div>   
-        </div>
-      </div>
-      </div>
       </section>
-    </footer>
+      <section class="partners_sec">
+        <div class="container_large">
+          <ul class="partner-list d-flex">
+            <li><img src="assets/svg/google-partner.svg" alt="imageError" /></li>
+            <li><img src="assets/svg/klaviyo-partner.svg" alt="imageError" /></li>
+            <li><img src="assets/svg/facebook-partner.svg" alt="imageError" /></li>
+            <li><img src="assets/svg/shopify-partner.svg" alt="imageError" /></li>
+            <li><img src="assets/svg/growth-hacker-partner.svg" alt="imageError" /></li>
+            <li><img src="assets/svg/snapchat-partner.svg" alt="imageError" /></li>
+            <li><img src="assets/svg/google-market-partner.svg" alt="imageError" /></li>
+            <li><img src="assets/svg/attendtive-partner.svg" alt="imageError" /></li>
+          </ul>
+          <img src="assets/svg/“.svg" alt="imageError" />
+          <h5 class="feedback small-heading">“I’ve been working with F&F for years now, and they’ve outperformed two much larger agencies. Samir has built a crack team that has to be <span class="text-highlight">the most efficient on the planet!</span>”</h5>
+          <img src="assets/svg/aaron.svg" alt="imageError" />
+          <p class="text">Aaron Aders</p>
+          <p class="caption partner_ceo">Founder & CEO, Summerboard</p>
+        </div>
+      </section>
+      <!-- <section class="result_sec bg-common">
+        <div class="result bg-common">
+          <div class="result_wavelines bg-common">
+            <div class="container">
+              <div class="result_content">
+                <span class="caption result-caption">Partner With Experts</span>
+                <h3>We Get Real Results</h3>
+                <p>Get a high ROI and finally start scaling your business.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </main>
+    <script>
+      let toggle= document.querySelector(".nav_hamburger");
+      let navList= document.querySelector(".nav_list");
+      toggle.addEventListener("click", () => {
+        navList.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>

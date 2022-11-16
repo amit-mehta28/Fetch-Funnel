@@ -1,0 +1,42 @@
+.partners_sec{
+    text-align: center;
+    padding: 55px 0;
+}
+
+.partner-list{
+    gap: 28px;
+    margin-bottom: 100px;
+}
+
+.partner_ceo{
+    color: #818299;
+}
+
+.feedback{
+    max-width: 900px;
+    width: 100%;
+    margin: 33px auto 13px;
+    color: #0E054D;
+}
+
+.text-highlight{
+  background-color: #a871ff;
+}
+
+  /* ========Responsive ======== */
+
+  @media (max-width: 991px){
+    .partner-list{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+  }
+
+  /* ========Responsive ======== */
+
+  @media (max-width: 767px){
+    .partner-list{
+      margin-bottom: 80px;
+      justify-content: space-evenly;
+    }
+  }
