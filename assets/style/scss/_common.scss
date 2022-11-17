@@ -13,7 +13,7 @@
   }
   
   @font-face {
-    font-family: avenir;
+    font-family: avenir-roman;
     src: url(../../fonts/AvenirLTStd-Roman.otf);
   }
   
@@ -86,6 +86,12 @@
     font-family: 'Poppins', sans-serif;
     color: white;
   }
+
+  .heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+  }
   
   .small-heading{
     font-family: 'Poppins', sans-serif;
@@ -95,7 +101,7 @@
 
   .text{
     font-weight: 400;
-    font-family: avenir;
+    font-family: avenir-roman;
     color: #183A7A;
   }
   
@@ -103,6 +109,6 @@
     font-family: avenir;
     font-size: 14px;
     font-weight: 800;
-    letter-spacing: 10%;
+    letter-spacing: 0.1em;
   }
   

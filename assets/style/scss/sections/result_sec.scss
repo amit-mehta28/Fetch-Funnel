@@ -1,19 +1,67 @@
-.result_sec{
-    background-image: url(../../image/result-wave.png);
-    // background-position: top center, bottom center;
-    min-height: 492px;
+.result_sec {
+  background-image: url(../../image/result-wave.png);
+  // background-position: top center, bottom center;
+  min-height: 492px;
 }
 
-.result{
-    background-image: url(../../image/result-img.png);
-    min-height: 492px;
+.result {
+  background-image: url(../../image/result-img.png);
+  min-height: 492px;
 }
-.result_wavelines{
-    background-image: url(../../svg/wave-bg.svg);
-    min-height: 492px;
+.result_wavelines {
+  background-image: url(../../svg/wave-bg.svg);
+  min-height: 492px;
+  place-content: center;
 }
 
-.result-caption{
-    font-size: 12px;
-    color: white;
+.result_content{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.result-caption {
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.result_heading {
+  color: white;
+}
+
+.result-discription {
+  color: white;
+  letter-spacing: 0;
+}
+
+.result_annuaal_client {
+    margin-top: 40px;
+  gap: 81px;
+}
+
+.result_annual {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 100px;
+  color: #a871ff;
+}
+
+
+// RESPONSIVE FOR DISPLAY SIZE - 991PX
+
+@media (max-width:991px){
+    .result_annuaal_client {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+}
+
+// RESPONSIVE FOR DISPLAY SIZE - 767PX
+
+@media (max-width:767px){
+    .result_annuaal_client {
+        gap: 30px;
+        // justify-content: space-evenly;
+        flex-direction: column;
+      }
 }

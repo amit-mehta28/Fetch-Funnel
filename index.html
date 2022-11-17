@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
   </head>
   <body>
     <!-- === === === HEADER === === === -->
@@ -28,9 +31,9 @@
             </ul>
             <a href="#" class="btn nav_btn">WORK WITH US</a>
           </div>
-          <button> 
-            <img class="nav_hamburger" src="assets/svg/hamburger.svg" alt="hamburgerError"> 
-          </button> 
+          <button>
+            <img class="nav_hamburger" src="assets/svg/hamburger.svg" alt="hamburgerError" />
+          </button>
         </nav>
       </div>
     </header>
@@ -66,23 +69,39 @@
           <p class="caption partner_ceo">Founder & CEO, Summerboard</p>
         </div>
       </section>
-      <!-- <section class="result_sec bg-common">
+      <section class="result_sec bg-common">
         <div class="result bg-common">
-          <div class="result_wavelines bg-common">
+          <div class="result_wavelines bg-common d-grid">
             <div class="container">
               <div class="result_content">
                 <span class="caption result-caption">Partner With Experts</span>
-                <h3>We Get Real Results</h3>
-                <p>Get a high ROI and finally start scaling your business.</p>
+                <h3 class="heading result_heading">We Get Real Results</h3>
+                <p class="caption result-discription">Get a high ROI and finally start scaling your business.</p>
+                <div class="result_annuaal_client d-flex">
+                  <div>
+                    <span class="result_annual">$400M+</span>
+                    <p class="caption result-caption">Annual Client Sales Generated</p>
+                  </div>
+
+                  <div>
+                    <span class="result_annual">$100M+</span>
+                    <p class="caption result-caption">Annual Client ad spend</p>
+                  </div>
+
+                  <div>
+                    <span class="result_annual">$350M+</span>
+                    <p class="caption result-caption">Annual Client Sales Generated</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
     <script>
-      let toggle= document.querySelector(".nav_hamburger");
-      let navList= document.querySelector(".nav_list");
+      let toggle = document.querySelector(".nav_hamburger");
+      let navList = document.querySelector(".nav_list");
       toggle.addEventListener("click", () => {
         navList.classList.toggle("active");
       });
