@@ -92,6 +92,7 @@ button {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
+  color: #0E054D;
 }
 
 .text {
@@ -179,10 +180,9 @@ button {
 }
 .sec_hero {
   background-image: url(../../image/hero-img.png);
-  min-height: 551px;
   position: relative;
   place-content: center;
-  padding: 80px 0;
+  padding: 120px 0;
 }
 
 .hero_wave {
@@ -226,7 +226,6 @@ button {
   max-width: 900px;
   width: 100%;
   margin: 33px auto 13px;
-  color: #0E054D;
 }
 
 .text-highlight {
@@ -303,5 +302,111 @@ button {
   .result_annuaal_client {
     gap: 30px;
     flex-direction: column;
+  }
+}
+.ad_sec {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.ad_head {
+  color: #0e054d;
+}
+
+.ad_title {
+  margin-bottom: 52px;
+}
+
+.para_text {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Avenir-roman;
+  color: #183a7a;
+}
+
+.ad {
+  background-image: url(../../image/ad-bg.png);
+  min-height: 492px;
+  margin-top: -178px;
+  padding-top: 238px;
+}
+
+.ad_wave {
+  background-image: url(../../image/ad-wave.png);
+  padding-bottom: 123px;
+  background-size: 100% 100%;
+  background-position: bottom;
+}
+
+.ad_service {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.service_item {
+  padding: 20px 22px;
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 10px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.ad-heading {
+  margin-bottom: 10px;
+}
+
+.service_txt {
+  line-height: 19.12px;
+}
+
+.txt-highlight {
+  color: #a871ff;
+}
+
+.ad-heading-title {
+  margin-bottom: 48px;
+}
+
+.ad_comp {
+  justify-content: space-between;
+}
+
+.ad_list {
+  gap: 30px;
+}
+
+.ad_item {
+  grid-template-columns: 25px 1fr;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .ad_wave {
+    background-size: 100% 50%;
+  }
+  .ad_service {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    place-items: center;
+  }
+  .ad_comp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .ad_head {
+    font-size: 30px;
+  }
+  .ad_wave {
+    background-size: 100% 200px;
+  }
+  .ad_service {
+    grid-template-columns: 1fr;
+  }
+  .ad_comp {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=index.css.map */
