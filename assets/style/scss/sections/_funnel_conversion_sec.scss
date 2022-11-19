@@ -1,0 +1,69 @@
+.funnel_conversion_sec {
+  padding: 65px 0 123px;
+}
+
+.funnel_conversion {
+  justify-content: space-between;
+  gap: 85px;
+  margin-bottom: 120px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.funnel_conversion:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.funnel_content {
+  width: 50%;
+}
+
+.funnel_image{
+  width: 50%;
+}
+
+.content_item {
+  margin-bottom: 30px;
+}
+
+.content-head {
+  margin-bottom: 10px;
+}
+
+.learn_more {
+  font-family: avenir;
+}
+
+
+// RESPONSIVE FOR DISPLAY SIZE - 991PX
+
+@media (max-width: 991px){
+  .funnel_conversion {
+    gap: 25px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    // width: 100%;
+  }
+  .funnel_content {
+    width: 100%;
+  }
+  
+  .funnel_image{
+    width: 100%;
+    text-align: center;
+  }
+  
+}
+
+// RESPONSIVE FOR DISPLAY SIZE - 767PX
+
+@media (max-width: 767px){
+  .funnel_conversion_sec {
+    padding: 65px 0 44px;
+  }
+
+  .content-head {
+    font-size: 24px;
+  }
+}

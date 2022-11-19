@@ -1,0 +1,35 @@
+.testimonial{
+    background-image: url(../../image/feedback.png);
+    min-height: 550px;
+    place-content: center;
+    text-align: center;
+}
+
+.testi-heading{
+    color: white;
+}
+
+.testi-name{
+    color: white;
+}
+
+.testi_img{
+    background-image: url(../../image/testi-image.png);
+   height: 550px;
+}
+
+  // RESPONSIVE FOR DISPLAY SIZE - 991PX
+
+  @media (max-width: 991px){
+    
+  }
+
+  // RESPONSIVE FOR DISPLAY SIZE - 767PX
+
+  @media (max-width: 767px){
+    .testi_img{
+        background-image: url(../../image/testimoial-image-mob.png);
+       min-height: 588px;
+    }
+    
+  }

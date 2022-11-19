@@ -466,4 +466,89 @@ button {
   .work_heading {
     font-size: 24px;
   }
+}
+.funnel_conversion_sec {
+  padding: 65px 0 123px;
+}
+
+.funnel_conversion {
+  justify-content: space-between;
+  gap: 85px;
+  margin-bottom: 120px;
+}
+.funnel_conversion:last-child {
+  margin-bottom: 0px;
+}
+
+.funnel_conversion:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.funnel_content {
+  width: 50%;
+}
+
+.funnel_image {
+  width: 50%;
+}
+
+.content_item {
+  margin-bottom: 30px;
+}
+
+.content-head {
+  margin-bottom: 10px;
+}
+
+.learn_more {
+  font-family: avenir;
+}
+
+@media (max-width: 991px) {
+  .funnel_conversion {
+    gap: 25px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+  }
+  .funnel_content {
+    width: 100%;
+  }
+  .funnel_image {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .funnel_conversion_sec {
+    padding: 65px 0 44px;
+  }
+  .content-head {
+    font-size: 24px;
+  }
+}
+.testimonial {
+  background-image: url(../../image/feedback.png);
+  min-height: 550px;
+  place-content: center;
+  text-align: center;
+}
+
+.testi-heading {
+  color: white;
+}
+
+.testi-name {
+  color: white;
+}
+
+.testi_img {
+  background-image: url(../../image/testi-image.png);
+  height: 550px;
+}
+
+@media (max-width: 767px) {
+  .testi_img {
+    background-image: url(../../image/testimoial-image-mob.png);
+    min-height: 588px;
+  }
 }/*# sourceMappingURL=index.css.map */
