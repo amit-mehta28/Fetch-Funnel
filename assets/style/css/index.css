@@ -449,7 +449,7 @@ button {
 .work_sec {
   background-image: url(../../image/workwithus.png);
   padding: 50px 0;
-  min-height: 550px;
+  min-height: 650px;
   place-content: center;
 }
 
@@ -550,5 +550,239 @@ button {
   .testi_img {
     background-image: url(../../image/testimoial-image-mob.png);
     min-height: 588px;
+  }
+}
+.track_sec {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.track-heading {
+  max-width: 550px;
+  width: 100%;
+  color: #0E054D;
+  margin: 0 auto 18px;
+}
+
+.track {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 38px;
+  place-items: center;
+  margin-bottom: 35px;
+}
+
+.track_content {
+  padding: 26px 10px;
+}
+
+.track-item {
+  background-image: url(../../image/studio-melia.png);
+  border-radius: 10px;
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+}
+
+.growth {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.discription {
+  font-family: Avenir-roman;
+  font-size: 10px;
+  color: white;
+  line-height: 30px;
+}
+
+@media (max-width: 1024px) {
+  .track {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 991px) {
+  .track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 575px) {
+  .track_sec {
+    padding: 70px 0;
+  }
+  .track-heading {
+    font-size: 24px;
+  }
+  .track {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .track-item {
+    max-width: 238px;
+    width: 100%;
+    height: 150px;
+  }
+  .track_content {
+    padding: 10px;
+  }
+}
+.blog_sec {
+  background-image: url(../../image/blog-sec.png);
+  min-height: 900px;
+  place-content: center;
+  padding: 100px 0;
+}
+
+.blog_content {
+  text-align: left;
+}
+
+.blog_headtext {
+  text-align: center;
+  margin-bottom: 64px;
+  color: white;
+}
+
+.blog-heading {
+  color: white;
+}
+
+.blog-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.blog_card {
+  grid-template-columns: repeat(3, 320px);
+  gap: 30px;
+}
+
+.blog_item {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.card_content {
+  padding: 25px 40px;
+}
+
+.card_text {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 0 25px;
+}
+
+@media (max-width: 1110px) {
+  .blog_sec {
+    padding: 68px 0;
+  }
+  .blog_card {
+    grid-template-columns: repeat(2, 320px);
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .blog_card {
+    grid-template-columns: repeat(1, 320px);
+    gap: 30px;
+    justify-content: center;
+  }
+}
+.help_sec {
+  padding: 100px 0 88px;
+  text-align: center;
+}
+
+.help_line {
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 58px;
+}
+
+.help_content {
+  text-align: center;
+}
+
+.help_checkboxes {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 600px;
+  width: 100%;
+  margin: 25px auto 30px;
+}
+
+.help_item {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 30px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  position: relative;
+}
+
+.help-gap {
+  gap: 12px;
+}
+
+.chkbox_text {
+  color: #0e054d;
+  cursor: pointer;
+}
+
+.round {
+  position: relative;
+}
+
+.round label {
+  background-color: #E4E4E9;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 5px;
+  left: 3px;
+  opacity: 0;
+  position: absolute;
+  top: 4px;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.round input[type=checkbox] {
+  visibility: hidden;
+}
+
+.round input[type=checkbox]:checked + label {
+  background-color: #A871FF;
+  border-color: #A871FF;
+}
+
+.round input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .help_line {
+    gap: 0px;
+  }
+  .help_checkboxes {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    max-width: 300px;
+    width: 100%;
+    margin: 25px auto 30px;
   }
 }/*# sourceMappingURL=index.css.map */
