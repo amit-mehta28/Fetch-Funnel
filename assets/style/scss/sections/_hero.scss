@@ -1,12 +1,15 @@
 
 // HERO SECTION ======================================================================================
+.main{
+  margin-top: 68px;
+}
 .sec_hero{
     background-image:url(../../image/hero-img.png);
     position: relative;
     place-content: center;
     padding: 120px 0;
   }
-
+  
   .hero_wave{
     width: 100%;
     position: absolute;

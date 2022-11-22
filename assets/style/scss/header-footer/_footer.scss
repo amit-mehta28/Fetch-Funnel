@@ -1,0 +1,163 @@
+.partner_footer {
+  background: #290a6b;
+  padding: 33px 0;
+  text-align: center;
+}
+.partner_text {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.partner_logos {
+  justify-content: center;
+  gap: 45px;
+  max-width: 750px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background: #0e054d;
+  padding: 40px 0 16px;
+  text-align: center;
+}
+
+.foot {
+  // margin: 0 150px 0 110px;
+  justify-content: space-between;
+}
+
+.foot-text {
+  font-size: 14px;
+  color: #a871ff;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.foot-logos {
+  gap: 17px;
+  justify-content: center;
+}
+
+.foot-para {
+  color: white;
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+.foot-headding {
+  font-size: 14px;
+  color: #c3c4d2;
+  font-family: avenir-roman;
+}
+
+.foot_contact {
+  font-family: avenir-roman;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #a871ff;
+  color: white;
+  margin-bottom: 14px;
+}
+
+.foot_address {
+  font-size: 14px;
+  color: #c3c4d2;
+}
+
+.foot-headding {
+  font-size: 14px;
+  color: #c3c4d2;
+  font-family: avenir-roman;
+}
+
+.foot_item {
+  font-size: 14px;
+  font-family: avenir-roman;
+  line-height: 26px;
+}
+
+.foot_item_headding {
+  font-weight: 800;
+  color: white;
+}
+
+.foot_link {
+  color: #c3c4d2;
+}
+
+.con-service-agency {
+  gap: 60px;
+}
+
+.service-agency {
+  text-align: left;
+  gap: 20px;
+}
+
+// RESPONSIVE FOR DISPLAY SIZE - 1024PX
+
+@media (max-width: 1024px) {
+  .foot {
+    // flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .con-service-agency {
+    gap: 60px;
+  }
+}
+
+// RESPONSIVE FOR DISPLAY SIZE - 767PX
+
+@media (max-width: 767px) {
+.facebook{
+    order: 1;
+}
+.google{
+    order: 2;
+}
+.klaviyo{
+    order: 3;
+}
+.snapchat{
+    order: 4;
+}
+.attentive{
+    order: 5;
+}
+.growth{
+    order: 6;
+}
+.google_partner{
+    order: 7;
+}
+.shopify{
+    order: 8;
+}
+  }
+
+   @media (max-width: 767px){
+    .foot{
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+       gap: 30px;
+      }
+
+      .con-service-agency{
+        // gap: 60px;
+       flex-direction: column-reverse;
+      }
+      .footer-btn{
+        letter-spacing: 0;
+      }
+      .service-agency{
+
+        justify-content: space-evenly;
+
+      }
+
+  }
